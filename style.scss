@@ -11,6 +11,10 @@
     padding: 0 16px;
     margin: 0 auto;
 }
+body {
+    display: flex;
+    flex-direction: column;
+}
 .header {
     width: 100%;
     padding: 30px 0;
@@ -26,6 +30,30 @@
             display: flex;
             gap: 20px;
             align-items: center;
+        }
+    }
+}
+.footer {
+    width: 100%;
+    padding: 50px 0;
+    background-color: bisque;
+    margin-top: auto;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        li {
+            width: 100px;
+            height: 30px;
+            background-color: aqua;
+            &:first-child {
+                width: 150px;
+                background-color: blueviolet;
+            }
+            &:last-child {
+                width: 170px;
+                background-color: cadetblue;
+            }
         }
     }
 }
