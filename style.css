@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+}
+
+.content {
+  max-width: 1472px;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  padding: 30px 0;
+}
+@media (max-width: 1024px) {
+  .header {
+    background-color: aquamarine;
+  }
+}
+.header .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .content .logo-block {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

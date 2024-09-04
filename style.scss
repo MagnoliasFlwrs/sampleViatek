@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+.content {
+    max-width: calc(1440px + 16px * 2);
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    padding: 30px 0;
+    @media (max-width:1024px) {
+        background-color: aquamarine;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo-block {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+    }
+}
